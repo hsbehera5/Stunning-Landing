@@ -1,0 +1,208 @@
+body{
+    background-color: white; 
+    padding: 15px; 
+}
+
+        /* Navigation Bar Start */
+
+.nav_section{
+    box-shadow: 0px 2px 5px -3px gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    
+}
+.logo{
+    background-image: url(./stunning-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 60px; 
+}
+.menu_sec ul{
+    display: flex;
+}
+.menu_sec ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.menu_sec ul li a{
+    text-decoration: none;
+    color: rgb(182, 175, 175);
+    font-family: 'Lora', serif;
+}
+.menu_sec ul li a:hover{
+    color: black;
+    line-height: 5px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #2307c2;
+    font-weight: bold;  
+}
+.btn_sec button{ 
+    padding: 15px;
+    background-color: pink; 
+    border-radius: 22px; 
+    border-color: palegoldenrod;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.btn_sec button a{
+    font-family: 'Lora', serif;
+    font-size: 13px;
+    text-decoration: none;
+    color:blue;
+}
+.btn_sec button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 1px palevioletred;
+}
+
+@keyframes demo{
+    from{
+        border-color: rgb(127, 15, 52);
+    }
+    to{
+        border-color: rgb(181, 178, 178) ;
+    }
+}
+
+        /* End of Navigation Bar */
+
+        /* Body of Stunning Workplace Start */
+
+.main_menu{
+    width: 30%;
+    margin-left: 100px;
+    padding: 0px 40px;
+}
+.heading h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Inter Tight', sans-serif;
+}
+.heading h1 .fullstop{
+    display:inline-block;
+    margin-left: -15px;
+}
+.fullstop{
+    height: 10px;
+    width: 10px;
+    background-color: #2307c2;
+}
+.main_menu .heading_2{
+    font-family:'Inter Tight', sans-serif;
+    font-size: 20px;
+    color: rgb(113, 103, 103);
+    margin-top: -30px;
+}
+.new_btn #btn{
+    background-color: #5243C0;
+    color: #ffffff;
+    padding: 15px 22px;
+    margin: 15px 0px;
+    border-radius: 20px;
+    border-color: #2307c2;
+    font-family: 'Lora', serif;
+    animation-name: demo1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 5px 1px #5e66c1;
+}
+@keyframes demo1{
+    from{
+        border-color: #2307c2;
+    }
+    to{
+        border-color: rgb(181, 178, 178) ;
+    }
+}
+
+.new_btn #up_arrow{
+    background-image: url(./arrow-up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    border: none;
+}
+.new_btn #down_arrow{
+    background-image: url(./arrow-down.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+    margin: 0px 5px;
+    border-radius: 20px;
+    border: none;
+}
+#up_arrow:hover, #down_arrow:hover{
+    box-shadow: 2px 2px 5px 2px #e1d8d8;
+}
+.main_div{
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.dmm_design, .blurr_animation, .illustration, .refunds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 2px 8px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    font-family:'Inter Tight', sans-serif;
+    font-size: 15px;
+    background-image: url(./tick-gray.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 15px center;
+}
+.main_div .card_text{
+    margin-left: 50px;
+    width: 120px;
+}
+.main_div .card_date{
+    color: #a5a1a1;
+}
+.dmm_design button, .blurr_animation button, .illustration button, .refunds button{
+    width: 25px;
+    height: 12px;
+    border: none;
+    background-color: #ddb9bc;
+    border-radius: 20px;
+}
+.blurr_animation button{
+    background-color: #FD6534;
+}
+.illustration button{
+    background-color:  #9ED095;
+}
+.refunds button{
+    background-color: #FFE4A0;
+}
+.dmm_design:hover, .blurr_animation:hover, .illustration:hover, .refunds:hover{
+    box-shadow: 2px 2px 5px 2px #e1d8d8;
+    background-color: white;
+    background-image: url(./tick-blue.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 15px center;
+}
+
+        /* Body of Stunning Workplace End */
+
+        /* Stunning Landing Image */
+
+.image img{
+    width: 100%;
+    padding: 15px;
+}
+.main_menu, .image_sec{
+    display: inline-block;
+}
